@@ -1,0 +1,31 @@
+# ==================================================
+# Main 
+# ==================================================
+title: Writeup Dump
+email: saulpabon57@gmail.com
+description: >- 
+  Personal space dedicated to writeups of all kind, 
+  Cybersecurity is a necesity in today's world.
+github_username: saulpabon
+
+# ==================================================
+# (URLs)
+# ==================================================
+url: "https://saulpabon.github.io" 
+baseurl: "" 
+
+# Style: saulpabon.github.io/dockerlabs/Example/
+permalink: /:categories/:title/
+
+# ==================================================
+# Theme
+# ==================================================
+theme: jekyll-theme-hacker
+
+# ==================================================
+# Plugins 
+# ==================================================
+plugins:
+  - jekyll-feed       
+  - jekyll-seo-tag
+  - jekyll-avatar    
