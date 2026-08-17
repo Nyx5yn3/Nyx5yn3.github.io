@@ -9,7 +9,8 @@ Hello friend, today is time to pwn a system
 
 ## 1. Testing 🔍
 
-Lets try nmap to test terminal on my page
+This should work
 
 ```bash
-nmap -p- --open -sS --min-rate 5000 -vvv -n -Pn 10.10.10.X -oG allPorts
+ $ nmap -p- --open -sS --min-rate 5000 -vvv -n -Pn 10.10.10.X -oG allPorts
+```
