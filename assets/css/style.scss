@@ -1,0 +1,80 @@
+---
+---
+
+// ==================================================
+// Paleta matrix/neón — sobrescribe variables del theme
+// ANTES del import (mecanismo oficial del tema hacker)
+// ==================================================
+$body-background: #000000;
+$body-foreground: #d4ffd4;
+$header: #00ff00;
+$conifer: #00ff00;
+$blockquote-color: #33ff33;
+$blockquote-border: #00ff00;
+
+@import "{{ site.theme }}";
+
+// ==================================================
+// Estilos propios (matrix/neón)
+// ==================================================
+body {
+  background: #000000;
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.3);
+}
+
+a {
+  color: #00ff00;
+  text-shadow: 0 0 6px rgba(0, 255, 0, 0.6);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #00ff00;
+  text-shadow: 0 0 8px rgba(0, 255, 0, 0.5);
+}
+
+pre, code {
+  color: #00ff00;
+  background: rgba(0, 255, 0, 0.05);
+}
+
+hr {
+  border-bottom: 1px dashed #00ff00;
+  color: #00ff00;
+}
+
+blockquote {
+  color: $blockquote-color;
+  border-left-color: $blockquote-border;
+}
+
+// Banner ASCII de la portada (antes inline en el layout)
+.ascii-banner {
+  text-align: center;
+  color: #00ff00;
+  margin-bottom: 30px;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.6);
+}
+
+// Prompt bash estático
+.terminal-prompt {
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #00ff00;
+  margin-top: 40px;
+  padding: 10px;
+  border: 1px dashed #00ff00;
+  background: rgba(0, 255, 0, 0.05);
+}
+
+.prompt-user {
+  color: #00ff00;
+}
+
+.prompt-cursor {
+  display: inline-block;
+  color: #00ff00;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}

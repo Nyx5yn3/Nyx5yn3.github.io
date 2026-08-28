@@ -18,3 +18,8 @@ Los que quieran simplemente vulnerar sistemas para aprovecharse de alguien mas, 
 * [>> HackTheBox](/hackthebox/) *(Próximamente)*
 
 ---
+
+<div class="terminal-prompt">
+  <span class="prompt-user">guest@nyx5yn3:~$</span>
+  <span class="prompt-cursor">█</span>
+</div>        
