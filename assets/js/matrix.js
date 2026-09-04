@@ -28,13 +28,13 @@
   function draw() {
     if (!isRunning) return;
 
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+    ctx.fillStyle = 'rgba(0, 0, 0, 0.12)';
     ctx.shadowBlur = 0;
     ctx.fillRect(0, 0, width, height);
 
-    ctx.shadowBlur = 10;
-    ctx.shadowColor = '#00ff00';
-    ctx.fillStyle = '#00ff00';
+    ctx.shadowBlur = 3;
+    ctx.shadowColor = '#003d00';
+    ctx.fillStyle = '#003d00';
     ctx.font = fontSize + 'px monospace';
 
     for (let i = 0; i < drops.length; i++) {
