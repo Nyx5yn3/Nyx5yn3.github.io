@@ -4,9 +4,11 @@ layout: portada
 
 # // Whoami
 
-Realmente no soy nadie, solo un random de internet, me gusta mucho la ciberseguridad y la privacidad, cosa que parece un taboo hoy en dia, pero estoy bien convencido de que no es nada raro luchar por un derecho. 
+Me gradue de informatica en 2023, aunque siempre se me enseño las bases de la programacion, me atrajo mucho mas el mundo del hacking en general, tener curiosidad por estas herramientas en si mismo no es negativo, sin embargo, debemos manejar estas cosas con cuidado, no siempre son simples sistemas los que salen afectados, a veces es la vida de la gente de verdad, que termina pagando irremediablemente por confiar demasiado en un sistema que no entiende.
 
-Los que quieran simplemente vulnerar sistemas para aprovecharse de alguien mas, creo que este no es el sitio para ustedes, **Cybercrime is highly cringe**. Los que deseen entender estas vulnerabilidades para ayudar a los demas, asi sea con poco, espero que aprendan algo de estos writeups.
+Este espacio es simplemente un espacio personal para poder administrar mis logros con respecto a plataformas de ethical hacking como HTB o dockerlabs.
+
+Luego deseo implementar alguna zona para subir Escritos personales, pero por ahora solo funcionara como un dump para writeups de ciberseguridad.
 
 ---
 
