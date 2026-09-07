@@ -78,3 +78,18 @@ blockquote {
 @keyframes blink {
   50% { opacity: 0; }
 }
+
+// ==================================================
+// Header polish (eliminar boton GitHub + estetica matrix)
+// ==================================================
+#downloads { display: none; }
+
+header {
+  background: rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid #00ff00;
+}
+
+header h2 {
+  color: #33ff33;
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.4);
+}
