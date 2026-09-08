@@ -5,13 +5,15 @@
   const terminalText = document.querySelector('.terminal-text');
   const welcomeMsg = '> system access // authorized // welcome //';
 
-  function typeWriter(element, text, speed = 80) {
+  function typeWriter(element, text, speed = 80, callback) {
     let i = 0;
     function type() {
       if (i < text.length) {
         element.textContent += text.charAt(i);
         i++;
         setTimeout(type, speed);
+      } else if (callback) {
+        callback();
       }
     }
     type();
@@ -19,7 +21,9 @@
 
   if (terminalText) {
     setTimeout(() => {
-      typeWriter(terminalText, welcomeMsg, 80);
+      typeWriter(terminalText, welcomeMsg, 80, () => {
+        terminalText.textContent = '';
+      });
     }, 500);
   }
 
