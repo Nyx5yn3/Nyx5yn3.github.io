@@ -55,17 +55,27 @@ blockquote {
   text-shadow: 0 0 10px rgba(0, 255, 0, 0.6);
 }
 
-// Prompt bash estático
+// Prompt terminal interactivo
 .terminal-prompt {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #00ff00;
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 10px;
-  border: 1px dashed #00ff00;
+  border: 1px solid #00ff00;
   background: rgba(0, 255, 0, 0.05);
+  position: relative;
+  cursor: text;
 }
 
 .prompt-user {
+  color: #00ff00;
+}
+
+.terminal-text {
+  color: #00ff00;
+}
+
+.terminal-display {
   color: #00ff00;
 }
 
@@ -73,6 +83,25 @@ blockquote {
   display: inline-block;
   color: #00ff00;
   animation: blink 1s step-end infinite;
+}
+
+.terminal-input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+.terminal-output {
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #33ff33;
+  margin: 4px 0;
+  padding-left: 10px;
+}
+
+.terminal-output.response {
+  color: #66ff66;
 }
 
 @keyframes blink {
