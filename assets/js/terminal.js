@@ -67,14 +67,14 @@
     const line = document.createElement('div');
     line.className = 'terminal-output';
     line.textContent = 'guest@Nyx5yn3:~$ ' + input;
-    terminalPrompt.parentNode.insertBefore(line, terminalPrompt.nextSibling);
+    terminalPrompt.parentNode.appendChild(line);
 
     const response = parseCommand(input);
     if (response) {
       const resLine = document.createElement('div');
       resLine.className = 'terminal-output response';
       resLine.textContent = response;
-      terminalPrompt.parentNode.insertBefore(resLine, terminalPrompt.nextSibling);
+      terminalPrompt.parentNode.appendChild(resLine);
     }
 
     if (terminalDisplay) terminalDisplay.textContent = '';

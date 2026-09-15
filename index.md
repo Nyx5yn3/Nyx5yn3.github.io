@@ -17,6 +17,6 @@ Luego deseo implementar alguna zona para subir Escritos personales, pero por aho
   Plataformas:
 
 * [>> DockerLabs](/dockerlabs/)
-* [>> HackTheBox](/hackthebox/) *(Próximamente)*
+* [>> HackTheBox](/hackthebox/)
 
 ---
