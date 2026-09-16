@@ -18,5 +18,6 @@ Luego deseo implementar alguna zona para subir Escritos personales, pero por aho
 
 * [>> DockerLabs](/dockerlabs/)
 * [>> HackTheBox](/hackthebox/)
+* [>> Personal](/personal/)
 
 ---
